@@ -26,7 +26,7 @@ public class CountYZTest {
     }
 
     @Test
-    public void countYZTest2(){
+    public void countYZTest2() {
         String input = "day fez";
         Integer expected = 2;
         Integer actual = stringsAndThings.countYZ(input);

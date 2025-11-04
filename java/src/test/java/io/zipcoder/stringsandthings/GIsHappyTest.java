@@ -32,8 +32,9 @@ public class GIsHappyTest {
 
     @Test
     public void gIsHappyTest3(){
-        Boolean actual = stringsAndThings.gIsHappy("xxggyygxx");
+        Boolean actual = stringsAndThings.gIsHappy("xxggyyggxx");
         Assert.assertTrue(actual);
     }
+
 
 }
